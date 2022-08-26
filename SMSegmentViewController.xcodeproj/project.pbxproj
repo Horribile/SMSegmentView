@@ -31,7 +31,7 @@
 		6957D72E1A5A997A007AC81B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6957D72D1A5A997A007AC81B /* Images.xcassets */; };
 		6957D7311A5A997A007AC81B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6957D72F1A5A997A007AC81B /* LaunchScreen.xib */; };
 		6957D73D1A5A997A007AC81B /* SMSegmentViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6957D73C1A5A997A007AC81B /* SMSegmentViewControllerTests.swift */; };
-		C19594531BD91785008D80C0 /* SMSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C19594521BD91785008D80C0 /* SMSegmentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E48475628B9021000EDC685 /* SMSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C19594521BD91785008D80C0 /* SMSegmentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C19594581BD917ED008D80C0 /* SMSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346DF371A619FC200DEFA20 /* SMSegmentView.swift */; };
 		C19594591BD917ED008D80C0 /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2346DF361A619FC200DEFA20 /* SMSegment.swift */; };
 /* End PBXBuildFile section */
@@ -205,11 +205,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C195944D1BD91785008D80C0 /* Headers */ = {
+		7E48475528B901C400EDC685 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19594531BD91785008D80C0 /* SMSegmentView.h in Headers */,
+				7E48475628B9021000EDC685 /* SMSegmentView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +255,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C19594571BD91785008D80C0 /* Build configuration list for PBXNativeTarget "SMSegmentView" */;
 			buildPhases = (
+				7E48475528B901C400EDC685 /* Headers */,
 				C195944B1BD91785008D80C0 /* Sources */,
 				C195944C1BD91785008D80C0 /* Frameworks */,
-				C195944D1BD91785008D80C0 /* Headers */,
 				C195944E1BD91785008D80C0 /* Resources */,
 			);
 			buildRules = (

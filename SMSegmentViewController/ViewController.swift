@@ -49,16 +49,16 @@ class ViewController: UIViewController {
         self.segmentView.addTarget(self, action: #selector(selectSegmentInSegmentView(segmentView:)), for: .valueChanged)
         
         // Set segment with index 0 as selected by default
-        self.segmentView.selectedSegmentIndex = 0
+        self.segmentView.selectedSegmentsIndexes = [0]
         self.view.addSubview(self.segmentView)
     }
     
     // SMSegment selector for .ValueChanged
-    func selectSegmentInSegmentView(segmentView: SMSegmentView) {
+    @objc func selectSegmentInSegmentView(segmentView: SMSegmentView) {
         /*
         Replace the following line to implement what you want the app to do after the segment gets tapped.
         */
-        print("Select segment at index: \(segmentView.selectedSegmentIndex)")
+        print("Select segment at index: \(segmentView.selectedSegmentsIndexes.first ?? -1)")
     }
     
     override func willAnimateRotation(to toInterfaceOrientation: UIInterfaceOrientation, duration: TimeInterval) {
